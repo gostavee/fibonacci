@@ -1,7 +1,6 @@
 /**
 * Find fibonacci of n
 */
-console.time('fibonacci');
 const fibonacci = (n) => {
   if (n === 0) {
       return 0;
@@ -15,5 +14,7 @@ const fibonacci = (n) => {
     return fibos[n];
   }
 }
-console.timeEnd('fibonacci');
+console.time('fibonacci');
 console.log("fibonacci is: ",fibonacci(50));
+console.timeEnd('fibonacci');
+
